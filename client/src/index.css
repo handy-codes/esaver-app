@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #ECEFF1;
+}
+
+.border{
+    border-radius: 5px 0 0 5px;
+    border-width: 1px;
+}
+
+.radius{
+    border-radius: 0 5px 5px 0;
+    border-width: 1px;
+    border-color: #E9B92F;
+}
+
+.icons img{
+    width: 25px;
+    height: 25px;
+    min-width: 5px;
+    min-height: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+span:hover{
+    color:#c99907;
+    scale: 90%;
+    transition: .5s;   
+}
+
+/*.dara img{
+    width: 20px;
+    border-radius: 50%;
+}
+*/
+
+.boll img{
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+
+.images{
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.item .images img{
+    transform: scale(1);
+    transition: 0.5s ease-in-out;            
+}
+        
+.item .images:hover img{
+    transform: scale(1.3);
+}
+
+
+.screen img{
+    width: 300px;
+}
+
+/* .radius{
+    border-radius: 70px 0px 70px 0px ;
+} */

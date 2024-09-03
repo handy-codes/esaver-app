@@ -1,0 +1,82 @@
+.load{
+    animation: slide 2s;
+}
+
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    animation: slide 40s infinite;
+}
+
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);  
+}
+
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    letter-spacing: 5px;   
+    text-align: center;
+    font-family: 'roboto', sans-serif;
+    
+}
+
+.principal h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 52px;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+}
+
+.principal p{
+    font-size: 18px;
+    font-family: 'roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+@keyframes slide {
+    0%{
+        background-image: url('https://media.istockphoto.com/id/1364618671/photo/tanzanian-woman-with-snake-print-turban-over-hear-working-in-fabrics-shop-calling-to-client.jpg?s=612x612&w=0&k=20&c=wkkD_a-Uw348UuWpkMm6JLmkYI5fKmKlOI6bgVXii28=');
+    }
+    20%{
+       background-image: url('https://media.istockphoto.com/id/640267784/photo/bank-building.jpg?s=1024x1024&w=is&k=20&c=852Vwi3hggOuaZLqXHFgUYFcNY9heUQ0PE0TRqIKoNw='); 
+    }
+    20.01%{
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtW8J651frBVE395qYaDD6fTc0pjTRDe3pqg&s');
+    }
+    40%{
+       background-image: url('https://i2.wp.com/dailytimesng.com/wp-content/uploads/2017/12/AAEAAQAAAAAAAAJjAAAAJGQ4NGExODM1LWQ0M2QtNGFlMS04ZmYyLTEwNzJiY2Q5YzE0Zg.jpg?fit=612%2C351&ssl=1'); 
+    }
+    40.01%{
+       background-image: url('https://images.pexels.com/photos/3213283/pexels-photo-3213283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); 
+    }
+    60%{
+       background-image: url('https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); 
+    }
+    60.01%{
+        background-image: url('https://media.istockphoto.com/id/1323715308/photo/african-american-girl-raising-her-hands-while-sitting-on-her-desk-in-the-class-at-school.jpg?b=1&s=612x612&w=0&k=20&c=UJlSwRdF3q9YP8SxQEpzhOEhaEAoCxqT_nP3McbpvcQ=');
+    }
+    80%{
+        background-image: url('https://pbs.twimg.com/media/ExaZEI2WgAUmx1b.jpg');
+    }
+    80.01%{
+       background-image: url('https://johnefglobal.wordpress.com/wp-content/uploads/2020/08/img_20200703_135035-2.jpg?w=768'); 
+    }
+    100%{
+        background-image: url('https://dayoadetiloye.com/wp-content/uploads/2018/09/sp003pix.jpg'); 
+    }
+
+}
+
+
